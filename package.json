@@ -1,0 +1,24 @@
+{
+  "name": "hello-node",
+  "version": "1.0.0",
+  "description": "Hello world application in NodeJS and Typescript",
+  "main": "./src/app.ts",
+  "repository": "github:julianmateu/hello-node",
+  "author": "Julian Mateu <julianmateu@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node ./src/app.ts",
+    "build": "tsc",
+    "test": "jest --maxWorkers=1",
+    "coverage": "jest --maxWorkers=1 --coverage",
+    "watch": "jest --maxWorkers=1 --coverage --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "*",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
