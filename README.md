@@ -1,2 +1,3 @@
-# hello-ts
-Hello world application in NodeJS using Typescript and Jest with coverage using Dev containers
+# blank-ts
+
+- Forked from https://github.com/julianmateu/hello-ts

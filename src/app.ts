@@ -1,4 +1,5 @@
-import { greet } from "./hello-world";
+import { greet } from './hello-world';
 
-let message: string = greet()
+let message: string = greet();
+
 console.log(message);
